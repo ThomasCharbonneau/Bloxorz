@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class LevelSerializer
 {
-    private const string _basePath = "../Bloxorz/Assets/LevelTextFiles/";
-    private const string _endPath = ".txt";
+    private const string BASE_PATH = "../Bloxorz/Assets/LevelTextFiles/";
+    private const string END_PATH = ".txt";
 
     private TileDatabase _tileDatabase;
     private LevelDatabase _levelDatabase;
@@ -28,7 +28,7 @@ public class LevelSerializer
 
     private Level SerializeLevel(string textFileName, int id)
     {
-        StreamReader inputStream = new StreamReader(_basePath + textFileName + _endPath);
+        StreamReader inputStream = new StreamReader(BASE_PATH + textFileName + END_PATH);
 
         List<List<Tile>> tiles = new List<List<Tile>>();
         while(!inputStream.EndOfStream)
