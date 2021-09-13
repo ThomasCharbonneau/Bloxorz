@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4956afa8d690b849a420165c7a440f5, type: 3}
+  m_Name: TileDatabase
+  m_EditorClassIdentifier: 
+  _tiles:
+  - {fileID: 2320025501711007045, guid: 5fb477a4641216446a2396cd81c2e425, type: 3}
+  - {fileID: -9214582752957135143, guid: be1bdaa9a0a23d74f9f77c58bb64bc64, type: 3}
+  - {fileID: 6614064834262360255, guid: 5e246b3ef6313bb4d8d1854b94f97d95, type: 3}
+  - {fileID: 3243170094027151817, guid: c7c4bdbb9512712488adb78507294492, type: 3}
+  _tile: {fileID: 2320025501711007045, guid: 5fb477a4641216446a2396cd81c2e425, type: 3}
+  _lavaTile: {fileID: 6614064834262360255, guid: 5e246b3ef6313bb4d8d1854b94f97d95,
+    type: 3}
+  _endTile: {fileID: 3243170094027151817, guid: c7c4bdbb9512712488adb78507294492,
+    type: 3}
+  _startTile: {fileID: -9214582752957135143, guid: be1bdaa9a0a23d74f9f77c58bb64bc64,
+    type: 3}

@@ -1,0 +1,9 @@
+TODO :
+- Add new types of tiles:
+	- Bridge : When standing on a tile(button), open up a bridge. Close it back up when standing on it once again.
+	- Invisible : Add tile that are always invisible, but still solid, unless you are standing on a tile (button) that makes them visible
+- Add custom level editor in the Unity editor
+- Link the MainMenu scene so it actually starts the game
+- Fix the camera being out of place and clunky
+- Add more levels
+- Add animation when moving the cube
