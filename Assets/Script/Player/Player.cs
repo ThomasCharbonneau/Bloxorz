@@ -34,7 +34,21 @@ public class Player : Entity
     {
         _row = (int)_initialPosition.x;
         _column = (int)_initialPosition.y;
-        gameObject.transform.position = new Vector3(_row, gameObject.transform.position.y, _column);
+
+        switch (_currentDirection)
+        {
+            case PlayerDirection.North:
+            case PlayerDirection.South:
+            case PlayerDirection.East:
+            case PlayerDirection.West:
+                // If the player was laying down when he died, reset the Y coordinate for the standing position
+                gameObject.transform.position = new Vector3(_row, gameObject.transform.position.y + 0.5f, _column);
+                break;
+            case PlayerDirection.Neutral:
+                gameObject.transform.position = new Vector3(_row, gameObject.transform.position.y, _column);
+                break;
+        }
+
         _currentDirection = PlayerDirection.Neutral;
     }
 
