@@ -65,94 +65,68 @@ public class Player : Entity
     {
         if (!_movementLocked)
         {
-            PlayerDirection oldDirection = _currentDirection;
+            Vector3 rotationPoint =  Vector3.zero;
             switch (_currentDirection)
             {
                 case PlayerDirection.North:
                 case PlayerDirection.South:
-                    if (x == 1)
-                    {
-                        transform.RotateAround(new Vector3(transform.position.x + 0.5f, transform.position.y - 0.5f, transform.position.z), new Vector3(0, 0, 1), -90);
-                    }
-                    else if (x == -1)
-                    {
-                        transform.RotateAround(new Vector3(transform.position.x - 0.5f, transform.position.y - 0.5f, transform.position.z), new Vector3(0, 0, 1), 90);
-                    }
-                    else if (y == 1)
-                    {
-                        transform.RotateAround(new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z + 1f), Vector3.right, 90);
-                        _currentDirection = PlayerDirection.Neutral;
-                        y += 0.5f;
-                    }
-                    else if (y == -1)
-                    {
-                        transform.RotateAround(new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z - 1f), Vector3.left, 90);
-                        _currentDirection = PlayerDirection.Neutral;
-                        y -= 0.5f;
-                    }
+                    rotationPoint = new Vector3(x != 0 ? transform.position.x + 0.5f * x : transform.position.x, transform.position.y - 0.5f, y != 0 ? transform.position.z + 1f * y : transform.position.z);
+                    y += 0.5f * y;
+                    _currentDirection = y != 0 ? PlayerDirection.Neutral : _currentDirection;
                     break;
                 case PlayerDirection.East:
                 case PlayerDirection.West:
-                    if (x == 1)
-                    {
-                        transform.RotateAround(new Vector3(transform.position.x + 1f, transform.position.y - 0.5f, transform.position.z), new Vector3(0, 0, 1), -90);
-                        _currentDirection = PlayerDirection.Neutral;
-                        x += 0.5f;
-                    }
-                    else if (x == -1)
-                    {
-                        transform.RotateAround(new Vector3(transform.position.x - 1f, transform.position.y - 0.5f, transform.position.z), new Vector3(0, 0, 1), 90);
-                        _currentDirection = PlayerDirection.Neutral;
-                        x -= 0.5f;
-                    }
-                    else if (y == 1)
-                    {
-                        transform.RotateAround(new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z + 0.5f), Vector3.right, 90);
-                    }
-                    else if (y == -1)
-                    {
-                        transform.RotateAround(new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z - 0.5f), Vector3.left, 90);
-                    }
+                    rotationPoint = new Vector3(x != 0 ? transform.position.x + 1f * x : transform.position.x, transform.position.y - 0.5f, y != 0 ? transform.position.z + 0.5f * y : transform.position.z);
+                    x += 0.5f * x;
+                    _currentDirection = x != 0 ? PlayerDirection.Neutral : _currentDirection;
                     break;
                 case PlayerDirection.Neutral:
+                    rotationPoint = new Vector3(x != 0 ? transform.position.x + 0.5f * x : transform.position.x, transform.position.y - 1f, y != 0 ? transform.position.z + 0.5f * y : transform.position.z);
                     if (x == 1)
                     {
-                        transform.RotateAround(new Vector3(transform.position.x + 0.5f, transform.position.y - 1, transform.position.z), new Vector3(0, 0, 1), -90);
                         _currentDirection = PlayerDirection.East;
-                        x += 0.5f;
                     }
                     else if (x == -1)
                     {
-                        transform.RotateAround(new Vector3(transform.position.x - 0.5f, transform.position.y - 1, transform.position.z), new Vector3(0, 0, 1), 90);
                         _currentDirection = PlayerDirection.West;
-                        x -= 0.5f;
                     }
                     else if (y == 1)
                     {
-                        transform.RotateAround(new Vector3(transform.position.x, transform.position.y - 1, transform.position.z + 0.5f), Vector3.right, 90);
                         _currentDirection = PlayerDirection.North;
-                        y += 0.5f;
                     }
                     else if (y == -1)
                     {
-                        transform.RotateAround(new Vector3(transform.position.x, transform.position.y - 1, transform.position.z - 0.5f), Vector3.left, 90);
                         _currentDirection = PlayerDirection.South;
-                        y -= 0.5f;
                     }
+                    x += 0.5f * x;
+                    y += 0.5f * y;
                     break;
             }
 
+            Vector3 rotationAxis = Vector3.zero;
+            if (x != 0)
+            {
+                rotationAxis = new Vector3(0, 0, 1);
+            } 
+            else
+            {
+                rotationAxis = y > 0 ? Vector3.right : Vector3.left;
+            }
+
+            int angle = x > 0 ? -90 : 90;
+            transform.RotateAround(rotationPoint, rotationAxis, angle);
 
             _row += x;
             _column += y;
             int currentRow = (int)_row;
             int currentColumn = (int)_column;
-            if (_row % 1 != 0)
+
+            if (_column % 1 != 0)
             {
                 GameScene.CurrentLevel.BoardTiles[currentRow][currentColumn].OnPressed();
                 GameScene.CurrentLevel.BoardTiles[currentRow][currentColumn + 1].OnPressed();
             }
-            else if (_column % 1 != 0)
+            else if (_row % 1 != 0)
             {
                 GameScene.CurrentLevel.BoardTiles[currentRow][currentColumn].OnPressed();
                 GameScene.CurrentLevel.BoardTiles[currentRow + 1][currentColumn].OnPressed();
