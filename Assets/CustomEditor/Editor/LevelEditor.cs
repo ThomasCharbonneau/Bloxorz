@@ -8,6 +8,8 @@ public class LevelEditor : EditorWindow
     private int _nbColumn = 10;
     private int _nbRow = 10;
 
+
+
     [MenuItem("Tools/Level Editor")]
     public static void ShowWindow()
     {
@@ -18,19 +20,29 @@ public class LevelEditor : EditorWindow
         GUILayout.Label("Level Editor", EditorStyles.boldLabel);
         GUILayout.Space(20);
 
-        GUILayout.Label("Number Of Columns", EditorStyles.boldLabel);
-        _nbColumn = EditorGUILayout.IntSlider(_nbColumn, MIN_SIZE, MAX_SIZE);
-        GUILayout.Label("Number Of Rows", EditorStyles.boldLabel);
-        _nbRow = EditorGUILayout.IntSlider(_nbRow, MIN_SIZE, MAX_SIZE);
+        int _oldNbColumn = _nbColumn;
+        int _oldNbRow = _nbRow;
+        _nbColumn = EditorGUILayout.IntSlider("Number Of Columns", _nbColumn, MIN_SIZE, MAX_SIZE);
+        _nbRow = EditorGUILayout.IntSlider("Number Of Rows", _nbRow, MIN_SIZE, MAX_SIZE);
 
         GUILayout.FlexibleSpace();
         if (GUILayout.Button("Save Your Level"))
         {
             SaveLevel();
         }
+
+        if (_oldNbColumn != _nbColumn || _oldNbRow != _nbRow)
+        {
+            UpdateGrid();
+        }
     }
 
     private void SaveLevel()
+    {
+
+    }
+
+    private void UpdateGrid()
     {
 
     }
