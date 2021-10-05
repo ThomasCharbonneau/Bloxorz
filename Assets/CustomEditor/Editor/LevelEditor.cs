@@ -2,19 +2,24 @@ using UnityEditor;
 using UnityEngine;
 public class LevelEditor : EditorWindow
 {
+    private const string TILE_INFORMATION_DATABASE_PATH = "../Bloxorz/Assets/Database/TileInformationDatabase.asset";
+
+    private static TileInformationDatabase _tileDatabase;
+
     private const int MIN_SIZE = 5;
     private const int MAX_SIZE = 20;
 
     private int _nbColumn = 10;
     private int _nbRow = 10;
 
-
-
     [MenuItem("Tools/Level Editor")]
     public static void ShowWindow()
     {
+        LoadTileDatabase();
         GetWindow(typeof(LevelEditor));
     }
+
+
     private void OnGUI()
     {
         GUILayout.Label("Level Editor", EditorStyles.boldLabel);
@@ -45,5 +50,10 @@ public class LevelEditor : EditorWindow
     private void UpdateGrid()
     {
 
+    }
+
+    private static void LoadTileDatabase()
+    {
+        _tileDatabase = AssetDatabase.LoadMainAssetAtPath(TILE_INFORMATION_DATABASE_PATH) as TileInformationDatabase;
     }
 }

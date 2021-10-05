@@ -10,6 +10,7 @@ public class LevelSerializer
 
     private TileDatabase _tileDatabase;
     private LevelDatabase _levelDatabase;
+
     public LevelSerializer(LevelDatabase levelDatabase, TileDatabase tileDatabase)
     {
         _levelDatabase = levelDatabase;
