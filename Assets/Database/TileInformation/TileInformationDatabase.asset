@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98acc0e24d9363e49928371fda2d9474, type: 3}
   m_Name: TileInformationDatabase
   m_EditorClassIdentifier: 
-  _tiles:
+  Tiles:
   - {fileID: 11400000, guid: f816b4bcc638d6a42bf5b4d556ef8864, type: 2}
   - {fileID: 11400000, guid: b9bd0c43afb77db4abbc23f511021373, type: 2}
   - {fileID: 11400000, guid: 15c0f6943f425ce4b8202421cbf0a54b, type: 2}
