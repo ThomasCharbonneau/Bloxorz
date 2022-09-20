@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "TileInformation", menuName = "ScriptableObjects/TileInformation", order = 1)]
 public class TileInformation : ScriptableObject
 {
-    [SerializeField] private string _tileName = default;
-    [SerializeField] private char _tileChar = default;
-    [SerializeField] private Sprite _tileSprite = default;
+    [SerializeField] public string TileName = default;
+    [SerializeField] public char TileChar = default;
+    [SerializeField] public Texture TileSprite = default;
 }

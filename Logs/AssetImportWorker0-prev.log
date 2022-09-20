@@ -15,11 +15,11 @@ C:/Users/tomto/Desktop/ProjetPersonnel/Bloxorz
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61019
+50397
 Successfully changed project path to: C:/Users/tomto/Desktop/ProjetPersonnel/Bloxorz
 C:/Users/tomto/Desktop/ProjetPersonnel/Bloxorz
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 61.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,487 +35,295 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003611 seconds.
+Registered in 0.002518 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 222.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.447 seconds
+- Completed reload, in  1.847 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008332 seconds.
+Registered in 0.012958 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.613 seconds
+- Completed reload, in  2.057 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1421 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 67.7 MB.
 System memory in use after: 67.8 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1861.
-Total: 4.142600 ms (FindLiveObjects: 0.337600 ms CreateObjectMapping: 0.075100 ms MarkObjects: 3.607200 ms  DeleteObjects: 0.120500 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1863.
+Total: 2.556100 ms (FindLiveObjects: 0.249000 ms CreateObjectMapping: 0.041500 ms MarkObjects: 2.155800 ms  DeleteObjects: 0.106600 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/CustomEditor/Editor/LevelEditor.cs
   artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d63ea904dccf2321ebbed6bd612c54') in 0.068024 seconds
-  Import took 0.071777 seconds .
+Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cf28db6cb0a3491d31a3a7bfe60127') in 0.070187 seconds
+  Import took 0.080470 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 504.208222 seconds.
+  Time since last request: 64.190268 seconds.
   path: Assets/CustomEditor/Editor/LevelEditor.cs
   artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e1142991623f861fd5a339df571033') in 0.014977 seconds
-  Import took 0.019013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.260106 seconds.
-  path: Assets/CustomEditor/Editor/LevelEditor.cs
-  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0e8e2a89dd2eef90a6ff92e7f2d97d') in 0.006224 seconds
-  Import took 0.010123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003899 seconds.
-  path: Assets/CustomEditor/Editor/LevelEditor.cs
-  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0e8e2a89dd2eef90a6ff92e7f2d97d') in 0.004572 seconds
-  Import took 0.007856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 147.966519 seconds.
-  path: Assets/CustomEditor/Editor/LevelEditor.cs
-  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a1b75347ec565c9695bb35f1f219e3') in 0.005060 seconds
-  Import took 0.008907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006827 seconds.
-  path: Assets/CustomEditor/Editor/LevelEditor.cs
-  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a1b75347ec565c9695bb35f1f219e3') in 0.004770 seconds
-  Import took 0.008102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.491680 seconds.
-  path: Assets/CustomEditor/Editor/LevelEditor.cs
-  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c835c681877bf03ddf7506faa88c5cc') in 0.004667 seconds
-  Import took 0.007453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.764297 seconds.
-  path: Assets/CustomEditor/Editor/LevelEditor.cs
-  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78423795b90f9050286c077d58336e2') in 0.004721 seconds
-  Import took 0.007620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006212 seconds.
-  path: Assets/CustomEditor/Editor/LevelEditor.cs
-  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78423795b90f9050286c077d58336e2') in 0.004990 seconds
-  Import took 0.009333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.872117 seconds.
-  path: Assets/CustomEditor/Editor/LevelEditor.cs
-  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdd9f2d1a31e26aa1c5ba34c4017a84') in 0.005431 seconds
-  Import took 0.008804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.210834 seconds.
-  path: Assets/CustomEditor/Editor/LevelEditor.cs
-  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9feb30cfebdc6da5a739685e7ce6d02') in 0.004426 seconds
-  Import took 0.007422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 376.840325 seconds.
-  path: Assets/CustomEditor/Editor/LevelEditor.cs
-  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a888d2c6ac0e66c989c44068bb7fb9d') in 0.004292 seconds
-  Import took 0.007549 seconds .
+Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb0d9ecde35ec1de793de25cf13b8a7') in 0.005633 seconds
+  Import took 0.008994 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007496 seconds.
+Registered in 0.004847 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.399 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.6 MB.
-System memory in use after: 66.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1864.
-Total: 2.384900 ms (FindLiveObjects: 0.230400 ms CreateObjectMapping: 0.041200 ms MarkObjects: 2.089600 ms  DeleteObjects: 0.021200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007171 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.262 seconds
+- Completed reload, in  1.561 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1407 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 66.6 MB.
 System memory in use after: 66.7 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1867.
-Total: 2.115200 ms (FindLiveObjects: 0.183200 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.872100 ms  DeleteObjects: 0.019000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 426.586481 seconds.
-  path: Assets/CustomEditor/Editor/LevelEditor.cs
-  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0b00619360bfbd74aa3671b0f1a948') in 0.011242 seconds
-  Import took 0.014924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.876542 seconds.
-  path: Assets/Database/LevelDatabase.cs
-  artifactKey: Guid(5e1dc6e920c305044a2bdbcd0b9878d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/LevelDatabase.cs using Guid(5e1dc6e920c305044a2bdbcd0b9878d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2495fb18aa5026840936c8bc74c84941') in 0.010398 seconds
-  Import took 0.014255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002047 seconds.
-  path: Assets/Database/LevelDatabase.cs
-  artifactKey: Guid(5e1dc6e920c305044a2bdbcd0b9878d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/LevelDatabase.cs using Guid(5e1dc6e920c305044a2bdbcd0b9878d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2495fb18aa5026840936c8bc74c84941') in 0.004286 seconds
-  Import took 0.006984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 181.706480 seconds.
-  path: Assets/ScriptableObject/Tile.cs
-  artifactKey: Guid(c05924b66e178bd42b5c0ade142a8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Tile.cs using Guid(c05924b66e178bd42b5c0ade142a8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51681f23d79102634f74b0fa718f7f5a') in 0.010575 seconds
-  Import took 0.014720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.933851 seconds.
-  path: Assets/ScriptableObject/TileInformation.cs
-  artifactKey: Guid(c05924b66e178bd42b5c0ade142a8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/TileInformation.cs using Guid(c05924b66e178bd42b5c0ade142a8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350814da88a679b4be70273b2aa42afa') in 0.010192 seconds
-  Import took 0.013833 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1866.
+Total: 2.749600 ms (FindLiveObjects: 0.203400 ms CreateObjectMapping: 0.040600 ms MarkObjects: 2.470600 ms  DeleteObjects: 0.033500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005499 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.440 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.6 MB.
-System memory in use after: 66.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1871.
-Total: 3.082700 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.105800 ms MarkObjects: 2.578600 ms  DeleteObjects: 0.026700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.572086 seconds.
-  path: Assets/ScriptableObject/TileInformation.cs
-  artifactKey: Guid(c05924b66e178bd42b5c0ade142a8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/TileInformation.cs using Guid(c05924b66e178bd42b5c0ade142a8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b014954f9d94defdcced101e4836b8') in 0.007145 seconds
-  Import took 0.011767 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007003 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.358 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.7 MB.
-System memory in use after: 66.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1874.
-Total: 2.067500 ms (FindLiveObjects: 0.184000 ms CreateObjectMapping: 0.039000 ms MarkObjects: 1.824900 ms  DeleteObjects: 0.018700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007695 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.194 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.7 MB.
-System memory in use after: 66.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1877.
-Total: 2.077800 ms (FindLiveObjects: 0.185900 ms CreateObjectMapping: 0.050600 ms MarkObjects: 1.821200 ms  DeleteObjects: 0.018300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 497.665437 seconds.
-  path: Assets/ScriptableObject/LavaTile.asset
-  artifactKey: Guid(b9bd0c43afb77db4abbc23f511021373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/LavaTile.asset using Guid(b9bd0c43afb77db4abbc23f511021373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8953cda3257724ee3a57b470b71e3cc6') in 0.028050 seconds
-  Import took 0.031719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.446274 seconds.
-  path: Assets/ScriptableObject/NormalTile.asset
-  artifactKey: Guid(f816b4bcc638d6a42bf5b4d556ef8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/NormalTile.asset using Guid(f816b4bcc638d6a42bf5b4d556ef8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481776e08d411bedd58e1903718bca03') in 0.011315 seconds
-  Import took 0.014809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/ScriptableObject/NormalTile.asset
-  artifactKey: Guid(f816b4bcc638d6a42bf5b4d556ef8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/NormalTile.asset using Guid(f816b4bcc638d6a42bf5b4d556ef8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481776e08d411bedd58e1903718bca03') in 0.005932 seconds
-  Import took 0.009059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.734674 seconds.
-  path: Assets/ScriptableObject/StartTile.asset
-  artifactKey: Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/StartTile.asset using Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2c5d60de44cda9a54a42e780102701') in 0.011460 seconds
-  Import took 0.015046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.175131 seconds.
-  path: Assets/ScriptableObject/EndTile.asset
-  artifactKey: Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/EndTile.asset using Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd922398ab587ad593309bccc7725d6') in 0.011771 seconds
-  Import took 0.015643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000768 seconds.
-  path: Assets/ScriptableObject/EndTile.asset
-  artifactKey: Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/EndTile.asset using Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd922398ab587ad593309bccc7725d6') in 0.004747 seconds
-  Import took 0.007354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.750907 seconds.
-  path: Assets/ScriptableObject/StartTile.asset
-  artifactKey: Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/StartTile.asset using Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265937fa5f281b16748418fa34e21233') in 0.005547 seconds
-  Import took 0.008185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002435 seconds.
-  path: Assets/ScriptableObject/StartTile.asset
-  artifactKey: Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/StartTile.asset using Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265937fa5f281b16748418fa34e21233') in 0.004832 seconds
-  Import took 0.007955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.670975 seconds.
-  path: Assets/ScriptableObject/EndTile.asset
-  artifactKey: Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/EndTile.asset using Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c337fb24b2b5f1f1523441eda719e7ad') in 0.005459 seconds
-  Import took 0.008952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/ScriptableObject/NormalTile.asset
-  artifactKey: Guid(f816b4bcc638d6a42bf5b4d556ef8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/NormalTile.asset using Guid(f816b4bcc638d6a42bf5b4d556ef8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16382cd98bfef2a69237d64418bdbca') in 0.005338 seconds
-  Import took 0.008507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/ScriptableObject/StartTile.asset
-  artifactKey: Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/StartTile.asset using Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dae469486f7e66816aad2d3b59bc1b7') in 0.004758 seconds
-  Import took 0.007286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/ScriptableObject/LavaTile.asset
-  artifactKey: Guid(b9bd0c43afb77db4abbc23f511021373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/LavaTile.asset using Guid(b9bd0c43afb77db4abbc23f511021373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee7b7eb029cabd16ee1ac4c3e6e88e9') in 0.005985 seconds
-  Import took 0.009329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.257705 seconds.
-  path: Assets/ScriptableObject/EndTile.asset
-  artifactKey: Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/EndTile.asset using Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6689638e90586441bbd8932d3a1315c3') in 0.004979 seconds
-  Import took 0.008648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/ScriptableObject/StartTile.asset
-  artifactKey: Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/StartTile.asset using Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1678b8c4981c276d9b1c5142f4d653') in 0.004644 seconds
-  Import took 0.007525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/ScriptableObject/LavaTile.asset
-  artifactKey: Guid(b9bd0c43afb77db4abbc23f511021373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/LavaTile.asset using Guid(b9bd0c43afb77db4abbc23f511021373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a9efde838ccead95d41836b717e7f5') in 0.005119 seconds
-  Import took 0.008224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.409872 seconds.
-  path: Assets/ScriptableObject/Tiles
-  artifactKey: Guid(ab0a25d7aface8e4990ec8b93a93c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Tiles using Guid(ab0a25d7aface8e4990ec8b93a93c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26619d77354b52659a742f8f54e698c8') in 0.007562 seconds
-  Import took 0.010918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.696498 seconds.
-  path: Assets/ScriptableObject/TileInformation.cs
-  artifactKey: Guid(c05924b66e178bd42b5c0ade142a8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/TileInformation.cs using Guid(c05924b66e178bd42b5c0ade142a8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd817231659c8d88960adc5582df3f851') in 0.004122 seconds
-  Import took 0.008116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005619 seconds.
-  path: Assets/ScriptableObject/TileInformation.cs
-  artifactKey: Guid(c05924b66e178bd42b5c0ade142a8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/TileInformation.cs using Guid(c05924b66e178bd42b5c0ade142a8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd817231659c8d88960adc5582df3f851') in 0.003966 seconds
-  Import took 0.006535 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007509 seconds.
+Registered in 0.012308 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.270 seconds
+- Completed reload, in  1.521 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.7 MB.
-System memory in use after: 66.8 MB.
+Unloading 1407 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.6 MB.
+System memory in use after: 66.7 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1880.
-Total: 2.230100 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.962700 ms  DeleteObjects: 0.025100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 15160.829665 seconds.
-  path: Assets/Database
-  artifactKey: Guid(223b2112a428a0c4d8da3941b90a31dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database using Guid(223b2112a428a0c4d8da3941b90a31dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7ed4ec80a2ac482c95dd4e788059f2') in 0.111242 seconds
-  Import took 0.198806 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1869.
+Total: 5.060900 ms (FindLiveObjects: 0.210100 ms CreateObjectMapping: 0.049000 ms MarkObjects: 4.772700 ms  DeleteObjects: 0.027500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.580825 seconds.
-  path: Assets/Database/TileInformationDatabase.cs
-  artifactKey: Guid(98acc0e24d9363e49928371fda2d9474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/TileInformationDatabase.cs using Guid(98acc0e24d9363e49928371fda2d9474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92abf23bb11078ad3b47dff28d23299') in 0.014206 seconds
-  Import took 0.018351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.791639 seconds.
-  path: Assets/Database/TileDatabase.cs
-  artifactKey: Guid(e4956afa8d690b849a420165c7a440f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/TileDatabase.cs using Guid(e4956afa8d690b849a420165c7a440f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067f2ce5f172dd05524b3eb35f20985a') in 0.057424 seconds
-  Import took 0.191906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 476.741586 seconds.
-  path: Assets/Database/TileInformationDatabase.cs
-  artifactKey: Guid(98acc0e24d9363e49928371fda2d9474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/TileInformationDatabase.cs using Guid(98acc0e24d9363e49928371fda2d9474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23871cf06170b4be05653ef3227f91c0') in 0.009270 seconds
-  Import took 0.014371 seconds .
+  Time since last request: 198.535950 seconds.
+  path: Assets/CustomEditor/Editor/LevelEditor.cs
+  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc2c30fd13d5ee116df04fbc88bdcbc') in 0.010402 seconds
+  Import took 0.015807 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.185077 seconds.
+Registered in 0.010995 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.428 seconds
+- Completed reload, in  1.362 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1407 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.6 MB.
+System memory in use after: 66.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1872.
+Total: 2.414200 ms (FindLiveObjects: 0.207200 ms CreateObjectMapping: 0.041700 ms MarkObjects: 2.138400 ms  DeleteObjects: 0.025000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 730.512332 seconds.
+  path: Assets/CustomEditor/Editor/LevelEditor.cs
+  artifactKey: Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomEditor/Editor/LevelEditor.cs using Guid(35f042f0af998474f84fa8f760d0fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e967662c21f33ed8cb9c35267cbf6d19') in 0.009682 seconds
+  Import took 0.013513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.982402 seconds.
+  path: Assets/ScriptableObject/Tiles/StartTile.asset
+  artifactKey: Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Tiles/StartTile.asset using Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af4ba7182e424bc132f74b5bc47bf5a') in 0.032522 seconds
+  Import took 0.036212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/ScriptableObject/Tiles/StartTile.asset
+  artifactKey: Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Tiles/StartTile.asset using Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af4ba7182e424bc132f74b5bc47bf5a') in 0.008036 seconds
+  Import took 0.010779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.655494 seconds.
+  path: Assets/ScriptableObject/Tiles/NormalTile.asset
+  artifactKey: Guid(f816b4bcc638d6a42bf5b4d556ef8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Tiles/NormalTile.asset using Guid(f816b4bcc638d6a42bf5b4d556ef8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d94a3ba93992ce8b56f2b802e0a7175') in 0.015980 seconds
+  Import took 0.020044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012983 seconds.
+  path: Assets/ScriptableObject/Tiles/NormalTile.asset
+  artifactKey: Guid(f816b4bcc638d6a42bf5b4d556ef8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Tiles/NormalTile.asset using Guid(f816b4bcc638d6a42bf5b4d556ef8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d94a3ba93992ce8b56f2b802e0a7175') in 0.007263 seconds
+  Import took 0.010141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.338988 seconds.
+  path: Assets/ScriptableObject/Tiles/LavaTile.asset
+  artifactKey: Guid(b9bd0c43afb77db4abbc23f511021373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Tiles/LavaTile.asset using Guid(b9bd0c43afb77db4abbc23f511021373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad2d7e1003679a1badd77c723610436') in 0.015958 seconds
+  Import took 0.018635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004727 seconds.
+  path: Assets/ScriptableObject/Tiles/LavaTile.asset
+  artifactKey: Guid(b9bd0c43afb77db4abbc23f511021373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Tiles/LavaTile.asset using Guid(b9bd0c43afb77db4abbc23f511021373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad2d7e1003679a1badd77c723610436') in 0.006239 seconds
+  Import took 0.009929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.771343 seconds.
+  path: Assets/ScriptableObject/Tiles/EndTile.asset
+  artifactKey: Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Tiles/EndTile.asset using Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fbb4efacc54480c1df93317f5ed576') in 0.011251 seconds
+  Import took 0.016265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007722 seconds.
+  path: Assets/ScriptableObject/Tiles/EndTile.asset
+  artifactKey: Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Tiles/EndTile.asset using Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fbb4efacc54480c1df93317f5ed576') in 0.004065 seconds
+  Import took 0.007170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 215.576194 seconds.
+  path: Assets/TileMaterials/Lava.png
+  artifactKey: Guid(0642b32b0494b6947b0730a77f9dc96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaterials/Lava.png using Guid(0642b32b0494b6947b0730a77f9dc96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24041ac98043f1a7007bd42bf3baa0e') in 0.097842 seconds
+  Import took 0.101086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.128571 seconds.
+  path: Assets/ScriptableObject/Tiles/LavaTile.asset
+  artifactKey: Guid(b9bd0c43afb77db4abbc23f511021373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Tiles/LavaTile.asset using Guid(b9bd0c43afb77db4abbc23f511021373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd40c4413f7ca771f836d9213385342') in 0.009003 seconds
+  Import took 0.013261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.824678 seconds.
+  path: Assets/TileMaterials/End.png
+  artifactKey: Guid(5fe3e0946132b304bb87107ae2f0a31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaterials/End.png using Guid(5fe3e0946132b304bb87107ae2f0a31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa82a370f33370907a15a01827ec075') in 0.016924 seconds
+  Import took 0.020247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.031471 seconds.
+  path: Assets/TileMaterials/Normal.png
+  artifactKey: Guid(837200dbb452d15418b63934f8f3843c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaterials/Normal.png using Guid(837200dbb452d15418b63934f8f3843c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0340d621d2dbe7b9484663f4b0b9726f') in 0.022422 seconds
+  Import took 0.025546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/TileMaterials/Start.png
+  artifactKey: Guid(a2aaf010242355344975e4b2646a9904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaterials/Start.png using Guid(a2aaf010242355344975e4b2646a9904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6390c14347932b34977d0056625f952') in 0.017989 seconds
+  Import took 0.021261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.602003 seconds.
+  path: Assets/ScriptableObject/Tiles/EndTile.asset
+  artifactKey: Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Tiles/EndTile.asset using Guid(e2ef56c4b1290d74bb55596588c52b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57fb822441cb4b8000e5b0f08127b61') in 0.008937 seconds
+  Import took 0.013200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/ScriptableObject/Tiles/NormalTile.asset
+  artifactKey: Guid(f816b4bcc638d6a42bf5b4d556ef8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Tiles/NormalTile.asset using Guid(f816b4bcc638d6a42bf5b4d556ef8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab44cb5430d40ef718baa5a7ab14d701') in 0.007384 seconds
+  Import took 0.010916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/ScriptableObject/Tiles/StartTile.asset
+  artifactKey: Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Tiles/StartTile.asset using Guid(15c0f6943f425ce4b8202421cbf0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad91328df67862142ebda5c0ca06a59') in 0.005144 seconds
+  Import took 0.008186 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004825 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.258 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1407 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.7 MB.
+System memory in use after: 66.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1877.
+Total: 2.117800 ms (FindLiveObjects: 0.187200 ms CreateObjectMapping: 0.039300 ms MarkObjects: 1.871700 ms  DeleteObjects: 0.018400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.956177 seconds.
+  path: Assets/Database/TileInformation
+  artifactKey: Guid(7bf7a384228a7304c8a4007c80253856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/TileInformation using Guid(7bf7a384228a7304c8a4007c80253856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7a38f55f0f4d5d700302c9f300c5d6') in 0.014839 seconds
+  Import took 0.018299 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006558 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -523,51 +331,47 @@ Unloading 1407 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 66.7 MB.
 System memory in use after: 66.8 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1884.
-Total: 4.583000 ms (FindLiveObjects: 0.488600 ms CreateObjectMapping: 0.350800 ms MarkObjects: 3.712500 ms  DeleteObjects: 0.029500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.623194 seconds.
-  path: Assets/Database/TileInformationDatabase.asset
-  artifactKey: Guid(bae0bd321e7a34842a76af3c4cbdc413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/TileInformationDatabase.asset using Guid(bae0bd321e7a34842a76af3c4cbdc413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3bcc66de11443086edd2605b5b9ef6') in 0.021187 seconds
-  Import took 0.024625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004562 seconds.
-  path: Assets/Database/TileInformationDatabase.asset
-  artifactKey: Guid(bae0bd321e7a34842a76af3c4cbdc413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/TileInformationDatabase.asset using Guid(bae0bd321e7a34842a76af3c4cbdc413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3bcc66de11443086edd2605b5b9ef6') in 0.005112 seconds
-  Import took 0.008140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.182927 seconds.
-  path: Assets/Database/TileInformationDatabase.asset
-  artifactKey: Guid(bae0bd321e7a34842a76af3c4cbdc413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/TileInformationDatabase.asset using Guid(bae0bd321e7a34842a76af3c4cbdc413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8376184d08bc7421073369b85053597') in 0.035368 seconds
-  Import took 0.038788 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 2.297400 ms (FindLiveObjects: 0.181600 ms CreateObjectMapping: 0.037200 ms MarkObjects: 2.057600 ms  DeleteObjects: 0.020200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.029333 seconds.
+Registered in 0.007685 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1407 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.8 MB.
+System memory in use after: 66.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1883.
+Total: 3.950800 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.039300 ms MarkObjects: 3.645500 ms  DeleteObjects: 0.062200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006641 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.597 seconds
+- Completed reload, in  1.299 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1407 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.7 MB.
-System memory in use after: 66.8 MB.
+System memory in use before: 66.8 MB.
+System memory in use after: 66.9 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1887.
-Total: 3.104600 ms (FindLiveObjects: 0.360400 ms CreateObjectMapping: 0.092100 ms MarkObjects: 2.607800 ms  DeleteObjects: 0.041900 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 3.592300 ms (FindLiveObjects: 0.286300 ms CreateObjectMapping: 0.059900 ms MarkObjects: 3.214000 ms  DeleteObjects: 0.029800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

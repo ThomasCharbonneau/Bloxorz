@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c05924b66e178bd42b5c0ade142a8b85, type: 3}
   m_Name: EndTile
   m_EditorClassIdentifier: 
-  _tileName: End Tile
-  _tileChar: 69
-  _tileSprite: {fileID: 0}
+  TileName: End Tile
+  TileChar: 0
+  TileSprite: {fileID: 2800000, guid: 5fe3e0946132b304bb87107ae2f0a31f, type: 3}

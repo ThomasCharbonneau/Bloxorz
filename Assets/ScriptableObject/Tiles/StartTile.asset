@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c05924b66e178bd42b5c0ade142a8b85, type: 3}
   m_Name: StartTile
   m_EditorClassIdentifier: 
-  _tileName: Start Tile
-  _tileChar: 83
-  _tileSprite: {fileID: 0}
+  TileName: Start Tile
+  TileChar: 0
+  TileSprite: {fileID: 2800000, guid: a2aaf010242355344975e4b2646a9904, type: 3}

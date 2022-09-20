@@ -6,6 +6,10 @@ public class LevelEditor : EditorWindow
 
     private TileInformationDatabase _tileDatabase;
     private string[] _tilesName;
+    private Texture[] _tilesTexture;
+
+    private Texture[][] _gridTexturesIndex;
+    private int[][] _gridTilesIndex;
 
     private const int MIN_SIZE = 5;
     private const int MAX_SIZE = 20;
@@ -14,6 +18,7 @@ public class LevelEditor : EditorWindow
     private int _nbRow = 10;
 
     private int _tileSelectedIndex = 0;
+    private int _gridSelectedIndex = 0;
 
     [MenuItem("Tools/Level Editor")]
     public static void ShowWindow()
@@ -41,6 +46,8 @@ public class LevelEditor : EditorWindow
         GUILayout.Space(10);
         _tileSelectedIndex = EditorGUILayout.Popup("Selected Tile Type", _tileSelectedIndex, _tilesName);
 
+        _gridSelectedIndex = GUILayout.SelectionGrid(_gridSelectedIndex, _tilesTexture, _nbRow);
+
         GUILayout.FlexibleSpace();
         if (GUILayout.Button("Save Your Level"))
         {
@@ -49,7 +56,7 @@ public class LevelEditor : EditorWindow
 
         if (_oldNbColumn != _nbColumn || _oldNbRow != _nbRow)
         {
-            UpdateGrid();
+            // UpdateGrid();
         }
     }
 
@@ -60,16 +67,27 @@ public class LevelEditor : EditorWindow
 
     private void UpdateGrid()
     {
+        GUILayout.BeginVertical("Grid");
+        for(int i = 0; i < _nbColumn; i++)
+        {
+            for(int j = 0; j < _nbRow; j++)
+            {
 
+            }
+        }
+        _gridSelectedIndex = GUILayout.SelectionGrid(_gridSelectedIndex, _tilesTexture, _nbRow);
+        GUILayout.EndVertical();
     }
 
     private void LoadTileDatabase()
     {
         _tileDatabase = AssetDatabase.LoadMainAssetAtPath(TILE_INFORMATION_DATABASE_PATH) as TileInformationDatabase;
         _tilesName = new string[_tileDatabase.Tiles.Length];
-        for(int i = 0; i < _tileDatabase.Tiles.Length; i++)
+        _tilesTexture = new Texture[_tileDatabase.Tiles.Length];
+        for (int i = 0; i < _tileDatabase.Tiles.Length; i++)
         {
-            _tilesName[i] = _tileDatabase.Tiles[i].name;
+            _tilesName[i] = _tileDatabase.Tiles[i].TileName;
+            _tilesTexture[i] = _tileDatabase.Tiles[i].TileSprite;
         }
     }
 }
